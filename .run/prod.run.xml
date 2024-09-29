@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="prod" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false">
+    <option name="ACTIVE_PROFILES" value="prod" />
+    <envs>
+      <env name="DATABASE_PUBLIC_URL" value="postgresql://postgres:bOyiZRqkaJePeSZghKUSjmNNEMIkQVdU@junction.proxy.rlwy.net:38249/railway" />
+      <env name="DATABASE_URL" value="postgresql://postgres:bOyiZRqkaJePeSZghKUSjmNNEMIkQVdU@postgres.railway.internal:5432/railway" />
+      <env name="PGDATA" value="/var/lib/postgresql/data/pgdata" />
+      <env name="PGDATABASE" value="railway" />
+      <env name="PGHOST" value="junction.proxy.rlwy.net" />
+      <env name="PGPASSWORD" value="bOyiZRqkaJePeSZghKUSjmNNEMIkQVdU" />
+      <env name="PGPORT" value="38249" />
+      <env name="PGUSER" value="postgres" />
+      <env name="POSTGRES_DB" value="railway" />
+      <env name="POSTGRES_PASSWORD" value="bOyiZRqkaJePeSZghKUSjmNNEMIkQVdU" />
+      <env name="POSTGRES_USER" value="postgres" />
+      <env name="SPRING_PROFILES_ACTIVE" value="prod" />
+      <env name="SSL_CERT_DAYS" value="820" />
+    </envs>
+    <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+    <module name="API_REST_SPRING_BOOT.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.dio.api_rest_spring_boot.ApiRestSpringBootApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
